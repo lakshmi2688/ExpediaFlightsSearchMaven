@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Regression TestSuite]" parallel="tests">
+  <test thread-count="5" verbose="0" name="Application Test 3(failed)" parallel="tests">
+    <groups>
+      <run>
+        <include name="onlygrp3"/>
+        <include name="onlygrp1"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.expedia.expediaflightssearch.NewTest1">
+        <methods>
+          <include name="setUp"/>
+          <include name="testMethod4"/>
+          <include name="testMethod5"/>
+          <include name="testMethod6"/>
+          <include name="testMethod3"/>
+        </methods>
+      </class> <!-- com.expedia.expediaflightssearch.NewTest1 -->
+    </classes>
+  </test> <!-- Application Test 3(failed) -->
+</suite> <!-- Failed suite [Regression TestSuite] -->

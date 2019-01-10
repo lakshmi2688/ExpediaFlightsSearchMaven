@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Maven TestSuite]">
+  <test thread-count="5" verbose="0" name="Application Test 1(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="platform" value="windows"/>
+    <classes>
+      <class name="com.expedia.expediaflightssearch.ExpediaSrchPageTestng">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="test" invocation-numbers="4"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.expedia.expediaflightssearch.ExpediaSrchPageTestng -->
+    </classes>
+  </test> <!-- Application Test 1(failed) -->
+</suite> <!-- Failed suite [Maven TestSuite] -->

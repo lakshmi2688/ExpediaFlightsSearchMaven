@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Expedia website opened]]>
+    </line>
+    <line>
+      <![CDATA[Entered flying from]]>
+    </line>
+    <line>
+      <![CDATA[Expedia website opened]]>
+    </line>
+    <line>
+      <![CDATA[Entered flying from]]>
+    </line>
+    <line>
+      <![CDATA[Expedia website opened]]>
+    </line>
+    <line>
+      <![CDATA[Entered flying from]]>
+    </line>
+  </reporter-output>
+  <suite name="Maven TestSuite" duration-ms="214142" started-at="2019-01-10T22:25:34Z" finished-at="2019-01-10T22:29:08Z">
+    <groups>
+    </groups>
+    <test name="Application Test 1" duration-ms="214142" started-at="2019-01-10T22:25:34Z" finished-at="2019-01-10T22:29:08Z">
+      <class name="com.expedia.expediaflightssearch.ExpediaSrchPageTestng">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.expedia.expediaflightssearch.ExpediaSrchPageTestng@1d6b83b]" name="setUp" is-config="true" duration-ms="10863" started-at="2019-01-10T22:25:34Z" finished-at="2019-01-10T22:25:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.expedia.expediaflightssearch.ExpediaSrchPageTestng@1d6b83b]" name="test" duration-ms="54395" started-at="2019-01-10T22:25:49Z" data-provider="inputs" finished-at="2019-01-10T22:26:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MAA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SEA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[02/10/2019]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[06/20/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Expedia website opened]]>
+            </line>
+            <line>
+              <![CDATA[Entered flying from]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.expedia.expediaflightssearch.ExpediaSrchPageTestng@1d6b83b]" name="afterMethod" is-config="true" duration-ms="652" started-at="2019-01-10T22:26:43Z" finished-at="2019-01-10T22:26:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test status=SUCCESS method=ExpediaSrchPageTestng.test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.expedia.expediaflightssearch.ExpediaSrchPageTestng@1d6b83b] output=Expedia website opened]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.expedia.expediaflightssearch.ExpediaSrchPageTestng@1d6b83b]" name="test" duration-ms="79914" started-at="2019-01-10T22:26:44Z" data-provider="inputs" finished-at="2019-01-10T22:28:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SEA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MAA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[03/4/2019]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[09/10/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Expedia website opened]]>
+            </line>
+            <line>
+              <![CDATA[Entered flying from]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.expedia.expediaflightssearch.ExpediaSrchPageTestng@1d6b83b]" name="afterMethod" is-config="true" duration-ms="4721" started-at="2019-01-10T22:28:04Z" finished-at="2019-01-10T22:28:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test status=SUCCESS method=ExpediaSrchPageTestng.test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.expedia.expediaflightssearch.ExpediaSrchPageTestng@1d6b83b] output=Expedia website opened]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.expedia.expediaflightssearch.ExpediaSrchPageTestng@1d6b83b]" name="test" duration-ms="53631" started-at="2019-01-10T22:28:08Z" data-provider="inputs" finished-at="2019-01-10T22:29:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DEN]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LAX]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[06/12/2019]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[07/10/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Expedia website opened]]>
+            </line>
+            <line>
+              <![CDATA[Entered flying from]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.expedia.expediaflightssearch.ExpediaSrchPageTestng@1d6b83b]" name="afterMethod" is-config="true" duration-ms="2211" started-at="2019-01-10T22:29:02Z" finished-at="2019-01-10T22:29:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test status=SUCCESS method=ExpediaSrchPageTestng.test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.expedia.expediaflightssearch.ExpediaSrchPageTestng@1d6b83b] output=Expedia website opened]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.expedia.expediaflightssearch.ExpediaSrchPageTestng@1d6b83b]" name="tearDown" is-config="true" duration-ms="4045" started-at="2019-01-10T22:29:04Z" finished-at="2019-01-10T22:29:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.expedia.expediaflightssearch.ExpediaSrchPageTestng -->
+    </test> <!-- Application Test 1 -->
+  </suite> <!-- Maven TestSuite -->
+</testng-results>
